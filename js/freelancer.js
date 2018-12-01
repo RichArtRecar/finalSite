@@ -15,6 +15,8 @@
     }
   });
 
+ 
+
   // Scroll to top button appear
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
@@ -73,3 +75,4 @@
   });
 
 })(jQuery); // End of use strict
+
